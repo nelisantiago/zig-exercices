@@ -17,8 +17,8 @@ pub fn main() void {
 
     // Oh dear! This while loop will go forever?!
     // Please fix this so the print statement below gives the desired output.
-    while (true) : (n += 1) {
-        if (???) ???;
+    while (n <= 5) : (n += 1) {
+        if (n > 3) break;
     }
 
     // Result: we want n=4

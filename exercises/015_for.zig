@@ -11,14 +11,14 @@
 const std = @import("std");
 
 pub fn main() void {
-    const story = [_]u8{ 'h', 'h', 's', 'n', 'h' };
+    const storys = [_]u8{ 'h', 'h', 's', 'n', 'h' };
 
     std.debug.print("A Dramatic Story: ", .{});
 
-    for (???) |???| {
-        if (scene == 'h') std.debug.print(":-)  ", .{});
-        if (scene == 's') std.debug.print(":-(  ", .{});
-        if (scene == 'n') std.debug.print(":-|  ", .{});
+    for (storys) |story| {
+        if (story == 'h') std.debug.print(":-)  ", .{});
+        if (story == 's') std.debug.print(":-(  ", .{});
+        if (story == 'n') std.debug.print(":-|  ", .{});
     }
 
     std.debug.print("The End.\n", .{});
