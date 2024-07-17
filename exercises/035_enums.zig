@@ -20,7 +20,11 @@
 const std = @import("std");
 
 // Please complete the enum!
-const Ops = enum { ??? };
+const Ops = enum {
+    inc, // Increment the current value by 1.
+    dec, // Decrement the current value by 1.
+    pow, // Multiply the current value by itself. faz c
+};
 
 pub fn main() void {
     const operations = [_]Ops{
